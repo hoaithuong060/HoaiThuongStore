@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lien_hes",
+  "info": {
+    "singularName": "lien-he",
+    "pluralName": "lien-hes",
+    "displayName": "LienHe",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "HinhAnh": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ThongTin": {
+      "type": "richtext"
+    }
+  }
+}

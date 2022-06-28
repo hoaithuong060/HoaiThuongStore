@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_themvao_meta_socials",
+  "info": {
+    "displayName": "metaSocial",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "motathongtin": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "socialNetwork": {
+      "type": "enumeration",
+      "enum": [
+        "facebook",
+        "instagram"
+      ]
+    }
+  }
+}

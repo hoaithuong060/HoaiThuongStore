@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cac_san_phams",
+  "info": {
+    "singularName": "cac-san-pham",
+    "pluralName": "cac-san-phams",
+    "displayName": "CacSanPham",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "hinhanh": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "GiaTienGoc": {
+      "type": "biginteger"
+    },
+    "GiaKhuyenMai": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "ThongTin": {
+      "type": "richtext"
+    },
+    "hangdienthoais": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::hangdienthoai.hangdienthoai",
+      "inversedBy": "cac_san_phams"
+    },
+    "productID": {
+      "type": "integer"
+    }
+  }
+}

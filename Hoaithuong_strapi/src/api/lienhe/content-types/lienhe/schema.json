@@ -1,0 +1,15 @@
+{
+  "kind": "singleType",
+  "collectionName": "lienhes",
+  "info": {
+    "singularName": "lienhe",
+    "pluralName": "lienhes",
+    "displayName": "Liên Hệ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}

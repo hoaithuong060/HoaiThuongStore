@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_themvao_right_buttons",
+  "info": {
+    "displayName": "rightButton"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "lable": {
+      "type": "string"
+    }
+  }
+}

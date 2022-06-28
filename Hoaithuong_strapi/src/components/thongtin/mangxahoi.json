@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_thongtin_mangxahois",
+  "info": {
+    "displayName": "mangxahoi"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    }
+  }
+}

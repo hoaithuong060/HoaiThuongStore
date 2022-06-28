@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hangdienthoais",
+  "info": {
+    "singularName": "hangdienthoai",
+    "pluralName": "hangdienthoais",
+    "displayName": "Hangdienthoai",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "cac_san_phams": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::cac-san-pham.cac-san-pham",
+      "mappedBy": "hangdienthoais"
+    },
+    "hinhanh": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

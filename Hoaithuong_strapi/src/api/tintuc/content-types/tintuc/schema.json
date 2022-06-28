@@ -1,0 +1,15 @@
+{
+  "kind": "singleType",
+  "collectionName": "tintucs",
+  "info": {
+    "singularName": "tintuc",
+    "pluralName": "tintucs",
+    "displayName": "Tin tức công nghệ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}
